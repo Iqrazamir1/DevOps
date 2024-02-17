@@ -1,0 +1,44 @@
+LAMP Stack
+
+LAMP Stack is a popular and widely-used set of open-source software that forms the foundation for developing 
+and running dynamic websites and web applications.
+
+Linux: 
+    The operating system that servers as the foundation of the stack. It provides the core infrastructure to 
+    run the web server, database, and other applications.
+
+Apache: 
+    The web server software responsible for serving web pages to browsers that request them. Apache processes 
+    HTTP (Hypertext Transfer Protocol) request and delivers the request content to the users.
+
+MySQL: 
+    The relational database management system (RDBMS) used to store and mange the websites data, it allows
+    developers to create, read, update, and delete data in the database.
+
+
+PHP: 
+    The server-side scripting language that is used to create dynamic content and interact with the database. 
+    PHP is responsible for processing data from the database, generating HTML, and communicating with the web
+    server.
+
+
+Example of using LAMP Stack - Creating a basic website  
+
+Linux: 
+    Choose a Linux distribution (Ubuntu, CentOS, or Debian) to sever as the operating system on your server.
+
+Apache: 
+    Install the Apache web server on the Linux system. Apache would listen for incoming HTTP requests from 
+    visitors browsers and serve the appropriate web pages in response.
+
+MySQL: 
+    Set up MySQL database to store blog posts, user information, and other relevant data. This is where the 
+    website's content and data would be sorted.
+
+PHP: 
+    You would use PHP to create the dynamic parts of the website. For example: You'd use PHP to fetch blog 
+    posts from the database and display them on the blog's homepage, handle user registration and login, and 
+    process from submissions. With the LAMP Stack in place, visitors to your blog website could access the 
+    content hosted on your server, and the website would be able to interact with the database to retrieve 
+    and display data dynamically.
+    

@@ -41,4 +41,3 @@ PHP:
     process from submissions. With the LAMP Stack in place, visitors to your blog website could access the 
     content hosted on your server, and the website would be able to interact with the database to retrieve 
     and display data dynamically.
-    

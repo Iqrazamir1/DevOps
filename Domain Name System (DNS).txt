@@ -1,0 +1,45 @@
+Domain Name System (DNS)
+
+DNS is essentially the phonebook of the internet. When you type a website address 
+(like www.example.com) into your web browser, your computer uses DNS to translate that 
+human-readable domain name into an IP address (like 192.0.2.1), which is the numerical 
+address that computers use to identify each other on the internet.
+
+Network Protocols for Security: DNS
+
+DNS Query Types:
+
+A Query: 
+    This type of query is used to retrieve the IPv4 address associated with a domain name. 
+    It's the most common type of DNS request and is used for resolving domain names to their 
+    corresponding IPv4 addresses.
+
+AAAA Query: 
+    DNS AAAA records match a domain name to an IPv6 address. DNS AAAA records are exactly 
+    like DNS A records, except that they store a domain's IPv6 address instead of its IPv4 
+    address.
+
+CNAME Query: 
+    Used to retrieve the canonical name (CNAME) records for a domain. These records 
+    alias one domain name to another, allowing for easier domain management and redirection.
+
+MX Query: 
+    Used to retrieve the mail exchange (MX) records for a domain. These records specify the 
+    mail servers responsible for receiving email on behalf of the domain.
+
+NSlookup
+
+NSlookup is a command-line tool used to perform queries on domain name servers.
+
+    nslookup www.pluralsight.com
+
+Use the -query option to request only an 'A' record:
+
+    nslookup -query=A www.pluralsight.com
+
+Use the -debug option to display the full response information:
+
+    nslookup -debug www.pluralsight.com
+
+    Note: This provides a more detailed response, including the Time-to-Live (TTL) values and 
+            any additional record information that is returned.
